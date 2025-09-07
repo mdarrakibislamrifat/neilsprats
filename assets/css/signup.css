@@ -77,7 +77,7 @@ body {
   margin-bottom: 10px;
 }
 
-.form-header .sign-in {
+.form-header .sign-up {
   color: #f4d03f;
   font-weight: 600;
 }
@@ -142,7 +142,7 @@ body {
   text-decoration: underline;
 }
 
-.sign-in-btn {
+.sign-up-btn {
   width: 100%;
   padding: 15px;
   background: #d4af37;
@@ -156,7 +156,7 @@ body {
   margin: 20px 0;
 }
 
-.sign-in-btn:hover {
+.sign-up-btn:hover {
   background: linear-gradient(135deg, #f39c12, #e67e22);
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(243, 156, 18, 0.4);
