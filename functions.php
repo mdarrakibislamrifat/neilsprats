@@ -33,14 +33,13 @@ function child_theme_enqueue_styles() {
     wp_enqueue_style('child-style', get_stylesheet_uri());
 
     // Luxury Page
-    if (is_page_template('templates/page-luxury.php')) {
+    
         wp_enqueue_style(
             'home-css',
             get_stylesheet_directory_uri() . '/assets/css/home.css',
             array('child-style'),
             '1.0'
         );
-    }
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');
 
