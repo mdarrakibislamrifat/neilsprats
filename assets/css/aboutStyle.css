@@ -178,3 +178,109 @@ body {
   height: fit-content;
   object-fit: cover;
 }
+
+
+
+/* &&&&&&&& CONTACT & HELP &&&&&&&& */
+/* ======== CONTACT & HELP ========= */
+/* ******** CONTACT & HELP ********* */
+/* &&&&&&&& CONTACT & HELP &&&&&&&& */
+#contact_Us_Page{
+        width: 100%;
+        overflow-x:hidden;
+    }
+    #contact_Us_Page #contactAndHepl{width: 100%; padding: 32px 0px;}
+    #contact_Us_Page #contactAndHepl .contactBanner{
+        width: 100%;
+        height: fit-content ;
+        padding: 181px 0px;
+       background: url('http://localhost/neilsPart/wp-content/uploads/2025/09/contactBannerImg.png');
+        background-size:"100% 100%";
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    #contact_Us_Page #contactAndHepl .contactBanner .contactBannerText{
+        width:100%;
+        max-width:364px;
+        text-align:center;
+    }
+    #contact_Us_Page #contactAndHepl .contactBanner .contactBannerText h1{
+        text-align:center;
+        font-size: 64px;
+        font-weight:600;
+        margin-bottom:16px;
+    }
+    #contact_Us_Page #contactAndHepl .contactBanner .contactBannerText p{
+        text-align:center;
+        font-size: 16px;
+        font-weight:300;
+        margin-bottom:16px;
+    }
+    #contact_Us_Page #contactFormSection{
+      width: 100%;
+      padding: 32px 10px 120px 10px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper{
+      width: 100%;
+      max-width: 1620px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormHeader{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormHeader .contactBase{
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      padding: 16px;
+      background-color: #FBF7EB;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormHeader .contactBase .textBox{
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormHeader .contactBase .textBox a{
+      color: black;
+      font-size: 16px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormContainer{
+      width: 100%;
+      max-width: 980px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormContainer form{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormContainer .inputRow{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormContainer .submitButtonRow{
+      display: flex;
+      justify-content: flex-end;
+    }
+    #contact_Us_Page #contactFormSection .contactFormWrapper .contactFormContainer .submitButtonRow button{
+      background-color: var(--colorOne);
+      color: black;
+      padding: 16px 141px;
+      font-size: 18px;
+    }
