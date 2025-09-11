@@ -10,6 +10,9 @@
   --colorOne:#D4AF37;
   --colorTwo:#EDDDA9;
 }
+.ast-container{
+      padding: 0;
+    }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingFont);
@@ -283,4 +286,14 @@ body {
       color: black;
       padding: 16px 141px;
       font-size: 18px;
+    }
+
+
+    /* $$$$$$$$$$terms_And_Condition$$$$$$$$$$$$ */
+    /* %%%%%%%%%%%terms_And_Condition%%%%%%%%%%%%%% */
+    /* (((((((((((((((((terms_And_Condition))))))))))))))))) */
+    
+    #privecyAndPolicyPage{
+      width: calc(100%-20px);
+      height: 100%;
     }

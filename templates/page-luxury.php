@@ -20,8 +20,6 @@ wp_head();
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-
-
 </head>
 
 <body>
