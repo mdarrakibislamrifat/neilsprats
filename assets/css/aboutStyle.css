@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --headingFont: "Playfair Display", serif;
+  --bodyFont: "Outfit", sans-serif;
+  --colorOne:#D4AF37;
+  --colorTwo:#EDDDA9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headingFont);
+  line-height: 0.8;
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--bodyFont);
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body {
+  width: 100Vw;
+  font-family: var(--bodyFont);
+  overflow-x: hidden;
+}
+
+.proContainer {
+  width: 100%;
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+
+#aboutBanner {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: linear-gradient(to right, #eddda9, rgba(237, 221, 169, 0.5803921569), #D4AF37);
+  padding: 24px 0;
+}
+#aboutBanner .whoWeAre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .heading h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 500;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .description {
+  width: 100%;
+  max-width: 760px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer {
+  background-color: rgba(20, 18, 18, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper {
+  width: 260px;
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper .avatar {
+  width: 64px;
+  height: 64px;
+  border: 1px solid red;
+  background-color: #00be9f;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper .avatar:nth-child(2) {
+  transform: translateX(45px);
+  background-color: #0088be;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper .avatar:nth-child(3) {
+  transform: translateX(90px);
+  background-color: #000dbe;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper .avatar:nth-child(4) {
+  transform: translateX(135px);
+  background-color: #7200be;
+}
+#aboutBanner .whoWeAre .whoWeAreWrapper .happy_Customer .avatar_Wrapper .avatar:nth-child(5) {
+  transform: translateX(180px);
+  background-color: #be0068;
+}
+/* ======about brand======= */
+#aboutBrand{
+  width: 100%;
+  height: fit-content;
+  padding: 10px 10px 120px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+#aboutBrand .aboutBrandHeader{
+  width: 100%;
+  max-width: 1620px;
+}
+#aboutBrand .aboutBrandHeader .aboutBrandimage{padding: 10px 10px 10px 0;}
+#aboutBrand .aboutBrandHeader .aboutBrandText{}
+#aboutBrand .aboutBrandHeader .aboutBrandText .aboutBrandTitle{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--headingFont);
+  margin-bottom: 10px;
+}
+#aboutBrand .aboutBrandHeader .aboutBrandText .aboutBrandTextList{
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#aboutBrand .aboutBrandHeader .aboutBrandText .aboutBrandTextList .aboutBrandTextListItem{
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  font-weight: 300;
+}
+
+#aboutBrand .aboutBrandIconWrapper{
+  width: 100%;
+  max-width: 1620px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+#aboutBrand .aboutBrandIconWrapper .aboutBrandIconrow{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#aboutBrand .aboutBrandIconWrapper .aboutBrandIconrow .aboutBrandIcon{
+  width: 20%;
+  height: fit-content;
+}
+#aboutBrand .aboutBrandIconWrapper .aboutBrandIconrow .aboutBrandIcon{
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+}
