@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Login Page Template
+ * Template Name: SignIn Page Template
  */
 ob_start();
 wp_head();
