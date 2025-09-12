@@ -101,17 +101,21 @@ body {
 
 .input-container {
   position: relative;
+  padding-left: 20px;
+  border: 1px solid red;
 }
 
 .input-container i {
   position: absolute;
-  left: 2px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   color: #f4d03f;
   font-size: 14px;
 }
-
+.form-group .input-container input{
+  padding-left: 30px !important;
+}
 .form-input {
   width: 100%;
   padding: 15px 50px;

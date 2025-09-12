@@ -52,14 +52,14 @@ function login_theme_enqueue_styles() {
     wp_enqueue_style('child-style', get_stylesheet_uri());
 
     // Luxury Page
-    if (is_page_template('templates/login-luxury.php')) {
+   
         wp_enqueue_style(
-            'home-css',
+            'login',
             get_stylesheet_directory_uri() . '/assets/css/login.css',
             array('child-style'),
             '1.0'
         );
-    }
+
 }
 add_action('wp_enqueue_scripts', 'login_theme_enqueue_styles');
 
@@ -70,16 +70,14 @@ add_action('wp_enqueue_scripts', 'login_theme_enqueue_styles');
 function signup_theme_enqueue_styles() {
     // Always include child theme style.css
     wp_enqueue_style('child-style', get_stylesheet_uri());
-
-    // Luxury Page
-    if (is_page_template('templates/signup-luxury.php')) {
+   
         wp_enqueue_style(
-            'home-css',
+            'signup',
             get_stylesheet_directory_uri() . '/assets/css/signup.css',
             array('child-style'),
             '1.0'
         );
-    }
+    
 }
 add_action('wp_enqueue_scripts', 'signup_theme_enqueue_styles');
 // ====about us style=====

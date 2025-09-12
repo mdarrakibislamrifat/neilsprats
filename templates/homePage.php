@@ -140,18 +140,22 @@ get_header();
                     <div class="pictureWrapper">
                         <div class="row1">
                             <div class="imgBox">
-                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-1.png" alt="png">
+                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-1.png"
+                                    alt="png">
                             </div>
                             <div class="imgBox">
-                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-3.png" alt="png">
+                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-3.png"
+                                    alt="png">
                             </div>
                         </div>
                         <div class="row2">
                             <div class="imgBox">
-                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-5.png" alt="png">
+                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-5.png"
+                                    alt="png">
                             </div>
                             <div class="imgBox">
-                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-6.png" alt="png">
+                                <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/beautiful-young-indian-man-thinking-with-chat-bubble-6.png"
+                                    alt="png">
                             </div>
                         </div>
                     </div>
@@ -317,23 +321,19 @@ get_header();
             </div>
         </section>
         <!-- =====partner brand icon ===== -->
-        <section id="partnerIcon" class="">
-            <div class="iconWrapper">
-                <div class="iconRow">
-                    <div class="partnerIcon"><img src="./icon01.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon02.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon03.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon04.png" alt="icon"></div>
-                </div>
-                <div class="iconRow">
-                    <div class="partnerIcon"><img src="./icon05.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon06.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon07.png" alt="icon"></div>
-                    <div class="partnerIcon"><img src="./icon08.png" alt="icon"></div>
-                </div>
-            </div>
-        </section>
+         <section id="brandIconSection">
+
+        <?php
+            get_template_part('template-parts/partner-logos-section');
+        ?>
+         </section>
     </section>
 </main>
 
 <?php get_footer(); ?>
+<style>
+    #brandIconSection{
+        width:100%;
+        padding:120px 0;
+    }
+</style>

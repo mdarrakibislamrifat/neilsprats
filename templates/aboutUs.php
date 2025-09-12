@@ -41,83 +41,61 @@ get_header();
             <div class="aboutBrandText">
                 <h3 class="aboutBrandTitle">Behind the Brand</h3>
                 <ul class="aboutBrandTextList">
-                    <li class="aboutBrandTextListItem">Every product we create carries a story of passion, dedication, and trust — built to bring you the best experience.</li>
-                    <li class="aboutBrandTextListItem">Our journey is fueled by innovation and a promise to deliver quality that truly makes a difference.</li>
-                    <li class="aboutBrandTextListItem">Behind every detail lies our commitment to authenticity, care, and customer-first values.</li>
+                    <li class="aboutBrandTextListItem">Every product we create carries a story of passion, dedication,
+                        and trust — built to bring you the best experience.</li>
+                    <li class="aboutBrandTextListItem">Our journey is fueled by innovation and a promise to deliver
+                        quality that truly makes a difference.</li>
+                    <li class="aboutBrandTextListItem">Behind every detail lies our commitment to authenticity, care,
+                        and customer-first values.</li>
                 </ul>
             </div>
         </div>
         <div class="aboutBrandIconWrapper">
-            <div class="aboutBrandIconrow">
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon1.png" alt="">
+            <?php
+                get_template_part('template-parts/partner-logos-section');
+            ?>
+        </div>
+    </section>
+    <!-- =====trusted by client===== -->
+    <section id="trustedByClient" class="">
+        <div class="trustWrapper">
+            <div class="trustHeader">
+                <div class="headerIcon">
+                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/Group-1000006018.png" alt="">
                 </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon2.png" alt="">
-                </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon3.png" alt="">
-                </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon4.png" alt="">
-                </div>
+                <h3>Trusted by Clients</h3>
+                <p>Hear directly from clients whose spaces have been elevated through elegant, connected technology.
+                </p>
             </div>
-            <div class="aboutBrandIconrow">
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon5.png" alt="">
-                </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon6.png" alt="">
-                </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon7.png" alt="">
-                </div>
-                <div class="aboutBrandIcon">
-                    <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/brandIcon8.png" alt="">
+            <div class="testimonialWraper">
+                <div class="slideWrapper">
+                    <div class="slide">
+                        <figure>
+                            <figcaption>“ This guide made my shopping so much easier! I knew exactly what to look
+                                for and avoided wasting money on the wrong product. Highly recommend! ”</figcaption>
+                            <div class="perrsonWrapper">
+                                <div class="person">
+                                    <div class="avatar">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <h6 class="personName">Pronob biswas</h6>
+                                        <span class="personCountery">Bangladesh</span>
+                                        <div class="reating">*****</div>
+                                    </div>
+                                </div>
+                                <div class="indicatorWrapper">
+                                    <div class="indicator"></div>
+                                    <div class="indicator"></div>
+                                    <div class="indicator"></div>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- =====trusted by client===== -->
-        <section id="trustedByClient" class="">
-            <div class="trustWrapper">
-                <div class="trustHeader">
-                    <div class="headerIcon">
-                        <img src="http://localhost/neilsPart/wp-content/uploads/2025/09/Group-1000006018.png" alt="">
-                    </div>
-                    <h3>Trusted by Clients</h3>
-                    <p>Hear directly from clients whose spaces have been elevated through elegant, connected technology.
-                    </p>
-                </div>
-                <div class="testimonialWraper">
-                    <div class="slideWrapper">
-                        <div class="slide">
-                            <figure>
-                                <figcaption>“ This guide made my shopping so much easier! I knew exactly what to look
-                                    for and avoided wasting money on the wrong product. Highly recommend! ”</figcaption>
-                                <div class="perrsonWrapper">
-                                    <div class="person">
-                                        <div class="avatar">
-                                            <img src="" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h6 class="personName">Pronob biswas</h6>
-                                            <span class="personCountery">Bangladesh</span>
-                                            <div class="reating">*****</div>
-                                        </div>
-                                    </div>
-                                    <div class="indicatorWrapper">
-                                        <div class="indicator"></div>
-                                        <div class="indicator"></div>
-                                        <div class="indicator"></div>
-                                    </div>
-                                </div>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 </main>
 
 <?php

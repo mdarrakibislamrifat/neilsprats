@@ -172,15 +172,7 @@ body {
   justify-content: space-between;
   gap: 10px;
 }
-#aboutBrand .aboutBrandIconWrapper .aboutBrandIconrow .aboutBrandIcon{
-  width: 20%;
-  height: fit-content;
-}
-#aboutBrand .aboutBrandIconWrapper .aboutBrandIconrow .aboutBrandIcon{
-  width: 100%;
-  height: fit-content;
-  object-fit: cover;
-}
+
 
 
 
@@ -192,6 +184,7 @@ body {
         width: 100%;
         overflow-x:hidden;
     }
+
     #contact_Us_Page #contactAndHepl{width: 100%; padding: 32px 0px;}
     #contact_Us_Page #contactAndHepl .contactBanner{
         width: 100%;
@@ -225,7 +218,7 @@ body {
       padding: 32px 10px 120px 10px;
     }
     #contact_Us_Page #contactFormSection .contactFormWrapper{
-      width: 100%;
+      width: calc(100%-20px);
       max-width: 1620px;
       display: flex;
       flex-direction: column;
@@ -289,11 +282,104 @@ body {
     }
 
 
-    /* $$$$$$$$$$terms_And_Condition$$$$$$$$$$$$ */
-    /* %%%%%%%%%%%terms_And_Condition%%%%%%%%%%%%%% */
-    /* (((((((((((((((((terms_And_Condition))))))))))))))))) */
+    /* $$$$$$$$$$ privecyAndPolicyPage $$$$$$$$$$$$ */
+    /* %%%%%%%%%%% privecyAndPolicyPage %%%%%%%%%%%%%% */
+    /* ((((((((((((((((( privecyAndPolicyPage ))))))))))))))))) */
     
     #privecyAndPolicyPage{
       width: calc(100%-20px);
       height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .termsBanner{
+      width: 100%;
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper{
+      width: 100%;
+      max-width: 1440px;
+      padding: 30px 10px 120px 10px ;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper .privecyPolicyContentBox{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper .privecyPolicyContentBox .privecyParagraph{
+      font-size: 16px;
+      font-weight: 300;
+      font-family: var(--bodyFont);
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper .privecyPolicyContentBox .privecyListWrapper{
+      width: 100%;
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper .privecyPolicyContentBox .privecyListWrapper .privecyListTitle{
+      font-size: 16px;
+      font-weight: 300;
+      font-family: var(--bodyFont);
+    }
+    #privecyAndPolicyPage .privecyPolicyContentWrapper .privecyPolicyContentBox .privecyListWrapper .privecyList{
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+      padding-left: 10px;
+    }
+    
+     /* $$$$$$$$$$ termsCondition Page $$$$$$$$$$$$ */
+    /* %%%%%%%%%%% termsCondition Page %%%%%%%%%%%%%% */
+    /* ((((((((((((((((( termsCondition Page ))))))))))))))))) */
+    
+    #termsConditionPage{
+      width: calc(100% - 20px);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .termsConditionBanner{
+      width: 100%;
+    }
+    #termsConditionPage .termsAndConditionWrapper{
+      width: 100%;
+      max-width: 1440px;
+      padding: 30px 10px 120px 10px ;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    #termsConditionPage .termsAndConditionWrapper .termsConditionContentBox{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    #termsConditionPage .termsAndConditionWrapper .termsConditionContentBox .termsConditionParagraph{
+      font-size: 16px;
+      font-weight: 300;
+      font-family: var(--bodyFont);
+    }
+    #termsConditionPage .termsAndConditionWrapper .termsConditionContentBox .termsConditionListWrapper{
+      width: 100%;
+    }
+    #termsConditionPage .termsAndConditionWrapper .termsConditionContentBox .termsConditionListWrapper .termsConditionListTitle{
+      font-size: 16px;
+      font-weight: 300;
+      font-family: var(--bodyFont);
+    }
+    #termsConditionPage .termsAndConditionWrapper .termsConditionContentBox .termsConditionListWrapper .termsConditionList{
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+      padding-left: 10px;
     }

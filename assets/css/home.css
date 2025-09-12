@@ -643,46 +643,6 @@ header.header {
   background-color: #e6b000;
 }
 
-#partnerIcon {
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 120px 227px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#partnerIcon .iconWrapper {
-  width: 100%;
-  max-width: 1460px;
-  height: -moz-fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 54px;
-}
-
-#partnerIcon .iconWrapper .iconRow {
-  width: 100%;
-  border: 2px solid green;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 54px;
-}
-
-#partnerIcon .iconWrapper .iconRow .partnerIcon {
-  width: 100%;
-  border: 1px solid red;
-}
-
-#partnerIcon .iconWrapper .iconRow .partnerIcon img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
 
 @media (max-width: 768px) {
   #banner {
@@ -956,44 +916,6 @@ header.header {
     width: 100%;
     height: 805px;
     padding: 15px 15px;
-  }
-
-  #partnerIcon {
-    width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
-    padding: 12px 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #partnerIcon .iconWrapper {
-    width: 100%;
-    max-width: 1460px;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-  }
-
-  #partnerIcon .iconWrapper .iconRow {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2%;
-  }
-
-  #partnerIcon .iconWrapper .iconRow .partnerIcon {
-    width: 25%;
-  }
-
-  #partnerIcon .iconWrapper .iconRow .partnerIcon img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
   }
 }
 
